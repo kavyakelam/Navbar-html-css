@@ -1,0 +1,62 @@
+#html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation menu on an  image</title>
+</head>
+<link rel="stylesheet" href="sty.css">
+<body>
+    <div class="bg-img">
+        <div class="container">
+          <div class="topnav">
+            <a href="#Home">HOME</a>
+            <a href="#About">ABOUT</a>
+            <a href="#Contact us">CONTACT US</a>
+            <a href="#Help">HELP</a>
+          </div>
+        </div>
+      </div>
+       
+</body>
+</html>
+
+#CSS
+
+.bg-img {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/286px-Altja_j%C3%B5gi_Lahemaal.jpg");
+  
+    min-height: 660px;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .container{
+    position: absolute;
+    margin: 360px;
+    width: auto;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+   text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
